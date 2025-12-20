@@ -1,0 +1,462 @@
+<html>
+<head>
+<title>TestNG:  Mahesh_Debug</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Mahesh_Debug</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 14 15:42:59 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>91 seconds (91976 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.logOutFromNockpoint()'><b>logOutFromNockpoint</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-639022616" onClick='toggleBox("Output-639022616", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-639022616" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-639022616">
+__03_44_09PM :: com.brigita.base.BaseTest#logOutFromApplication > End of execution<br /><br/>
+__03_44_29PM :: com.brigita.base.BaseTest#logOutFromApplication > Click on profile<br /><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img _ngcontent-iwy-c105=&quot;&quot; id=&quot;user-icon&quot; class=&quot;_proImg&quot; src=&quot;https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg&quot; style=&quot;border: 2px solid white;&quot;&gt; is not clickable at point (1881, 32). Other element would receive the click: &lt;div _ngcontent-iwy-c105=&quot;&quot; id=&quot;overlayPopup&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=140.0.7339.128)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -&gt; xpath: //*[@id=&apos;user-icon&apos;]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.brigita.base.BaseTest.clickOperation(BaseTest.java:359)
+	at com.brigita.base.BaseTest.logOutFromApplication(BaseTest.java:222)
+	at com.brigita.base.BaseTest.logOutFromNockpoint(BaseTest.java:322)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace639022616", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace639022616'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img _ngcontent-iwy-c105=&quot;&quot; id=&quot;user-icon&quot; class=&quot;_proImg&quot; src=&quot;https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg&quot; style=&quot;border: 2px solid white;&quot;&gt; is not clickable at point (1881, 32). Other element would receive the click: &lt;div _ngcontent-iwy-c105=&quot;&quot; id=&quot;overlayPopup&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=140.0.7339.128)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -&gt; xpath: //*[@id=&apos;user-icon&apos;]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.brigita.base.BaseTest.clickOperation(BaseTest.java:359)
+	at com.brigita.base.BaseTest.logOutFromApplication(BaseTest.java:222)
+	at com.brigita.base.BaseTest.logOutFromNockpoint(BaseTest.java:322)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.afterRun(TestRunner.java:877)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>23</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_010_Verifies_TUID_value_and_profile_menu_display()'><b>TC_010_Verifies_TUID_value_and_profile_menu_display</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-539322891" onClick='toggleBox("Output-539322891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-539322891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-539322891">
+__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > ==== Test Start: Verifying TUID ====<br /><br/>
+__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 1: Verify 'Tuid' label is displayed.<br /><br/>
+__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > SUCCESS: 'Tuid' label is visible on the page.<br /><br/>
+__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 2: Verify 'Tuid' value matches expected value.<br /><br/>
+__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > SUCCESS: 'Tuid' value matches expected: EG7WMNE3W6IS<br /><br/>
+__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 3: Click profile icon to verify TUID in profile.<br /><br/>
+__03_44_03PM :: com.brigita.base.Companyprofile#verifyTuid > ERROR: Exception occurred while verifying TUID: element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //img[@id="user-icon"]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29<br /><br/>
+__03_44_03PM :: com.brigita.base.Companyprofile#verifyTuid > ==== Test End: Verifying TUID ====<br /><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Test failed due to exception: element click intercepted: Element &lt;img _ngcontent-iwy-c105=&quot;&quot; id=&quot;user-icon&quot; class=&quot;_proImg&quot; src=&quot;https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg&quot; style=&quot;border: 2px solid white;&quot;&gt; is not clickable at point (1881, 32). Other element would receive the click: &lt;div _ngcontent-iwy-c105=&quot;&quot; id=&quot;overlayPopup&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=140.0.7339.128)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -&gt; xpath: //img[@id=&quot;user-icon&quot;]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29
+	at com.brigita.base.Companyprofile.verifyTuid(Companyprofile.java:401)
+	at com.brigita.UAT.CompanyProfilemenu.TC_010_Verifies_TUID_value_and_profile_menu_display(CompanyProfilemenu.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace539322891", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace539322891'><pre>java.lang.AssertionError: Test failed due to exception: element click intercepted: Element &lt;img _ngcontent-iwy-c105=&quot;&quot; id=&quot;user-icon&quot; class=&quot;_proImg&quot; src=&quot;https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg&quot; style=&quot;border: 2px solid white;&quot;&gt; is not clickable at point (1881, 32). Other element would receive the click: &lt;div _ngcontent-iwy-c105=&quot;&quot; id=&quot;overlayPopup&quot; style=&quot;display: block;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=140.0.7339.128)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -&gt; xpath: //img[@id=&quot;user-icon&quot;]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.brigita.base.Companyprofile.verifyTuid(Companyprofile.java:401)
+	at com.brigita.UAT.CompanyProfilemenu.TC_010_Verifies_TUID_value_and_profile_menu_display(CompanyProfilemenu.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI()'><b>TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-1692915352" onClick='toggleBox("Output-1692915352", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1692915352" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1692915352">
+__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > ==== Test Start: Verifying Company Name Edit Flow ====<br /><br/>
+__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 1: Clear the existing Company Name value<br /><br/>
+__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Existing Company Name value cleared<br /><br/>
+__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 2: Enter new Company Name value<br /><br/>
+__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: New Company Name entered: BRIGITA12345<br /><br/>
+__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 3: Click on Save button<br /><br/>
+__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Save button clicked<br /><br/>
+__03_43_42PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 4: Verify updated Company Name value in input field<br /><br/>
+__03_43_42PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Company Name input updated correctly: BRIGITA12345<br /><br/>
+__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 5: Verify Company Name updated in header section<br /><br/>
+__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Company Name updated in header section<br /><br/>
+__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 6: Click on profile icon<br /><br/>
+__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Profile icon clicked<br /><br/>
+__03_43_44PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 7: Verify Company Name updated in profile menu<br /><br/>
+__03_43_44PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > ==== Test End: Verified Company Name edit flow ====<br /><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: FAILED: Company Name not updated in profile menu expected [true] but found [false]
+	at com.brigita.base.Companyprofile.verifyCompanyNameValueviaEditing(Companyprofile.java:257)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1692915352", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1692915352'><pre>java.lang.AssertionError: FAILED: Company Name not updated in profile menu expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.brigita.base.Companyprofile.verifyCompanyNameValueviaEditing(Companyprofile.java:257)
+	at com.brigita.UAT.CompanyProfilemenu.TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI(CompanyProfilemenu.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_007_Verifies_No_of_Users_count()'><b>TC_007_Verifies_No_of_Users_count</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-1623148876" onClick='toggleBox("Output-1623148876", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1623148876" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1623148876">
+__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > ==== Test Start: Verifying 'No of Users' count ====<br /><br/>
+__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > Step 1: Verify 'No of Users' label is displayed.<br /><br/>
+__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > SUCCESS: 'No of Users' label is visible on the page.<br /><br/>
+__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > Step 2: Verify 'No of Users' count matches expected.<br /><br/>
+__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > SUCCESS: 'No of Users' count matches expected value: 2<br /><br/>
+__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > ==== Test End: Verifying 'No of Users' count ====<br /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_005_Verifies_Company_Name_Label_Value_and_Save_Button()'><b>TC_005_Verifies_Company_Name_Label_Value_and_Save_Button</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-925913781" onClick='toggleBox("Output-925913781", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-925913781" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-925913781">
+__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > ==== Test Start: Verifying Company Name Label, Value & Save Button ====<br /><br/>
+__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 1: Validate Company Name label is displayed with correct spelling<br /><br/>
+__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name label is displayed<br /><br/>
+__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 2: Validate Company Name input displays the correct registered company name<br /><br/>
+__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name value is displayed correctly: BRIGITA1<br /><br/>
+__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 3: Validate Company Name Save button is displayed<br /><br/>
+__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name Save button is displayed<br /><br/>
+__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > ==== Test End: Verified Company Name Label, Value & Save Button ====<br /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_004_Verifies_Company_Name_and_Plan_Validity_display()'><b>TC_004_Verifies_Company_Name_and_Plan_Validity_display</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-1653309853" onClick='toggleBox("Output-1653309853", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1653309853" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1653309853">
+__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Test Start: Verify that Company Name and Plan Validity fields are displayed with correct spelling.<br /><br/>
+__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Step 1: Validate that Company Name fields are displayed with correct spelling.<br /><br/>
+__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > SUCCESS: Company Name field is displaying with correct spelling<br /><br/>
+__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Step 2: Validate that Plan Validity fields are displayed with correct spelling.<br /><br/>
+__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > SUCCESS: Plan Validity fields are displayed with correct spelling<br /><br/>
+__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > ==== Test End: Verified Company Name & Plan Validity ====<br /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text()'><b>TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-1429980012" onClick='toggleBox("Output-1429980012", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1429980012" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1429980012">
+__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > ==== Test Start: Verifying Setting Icon ====<br /><br/>
+__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 1: Verifying that the Setting Icon is available.<br /><br/>
+__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Setting Icon is displayed.<br /><br/>
+__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 2: Verifying the tooltip text on the Setting Icon.<br /><br/>
+__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Tooltip text is correct. Tooltip: Settings<br /><br/>
+__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 3: Clicking on the Setting Icon.<br /><br/>
+__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Setting Icon clicked successfully.<br /><br/>
+__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > ==== Test End: Verified Setting Icon ====<br /><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_002_Verifies_Company_Profile_menu_display_under_Settings()'><b>TC_002_Verifies_Company_Profile_menu_display_under_Settings</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-1250950517" onClick='toggleBox("Output-1250950517", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1250950517" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1250950517">
+__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > ==== Test Start: Verifying Company Profile Menu ====<br /><br/>
+__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > Step 1: Validate that the Company Profile menu is displayed under the Settings icon with correct spelling<br /><br/>
+__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > SUCCESS: Company profile menu is displayed under settings icon with correct spelling<br /><br/>
+__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > Step 2: Validate that the Company Profile menu is highlighted when clicked.<br /><br/>
+__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > SUCCESS: Company profile menu is highlighted when clicked<br /><br/>
+__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > ==== Test End: Verified Company Profile Menu ====<br /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_003_Verifies_Company_Profile_text_at_left_navigation()'><b>TC_003_Verifies_Company_Profile_text_at_left_navigation</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-1907758892" onClick='toggleBox("Output-1907758892", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1907758892" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1907758892">
+__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > Test Start: Verifying Company Profile text is visible on the left side of the screen<br /><br/>
+__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > Step 1: Velidate Company Profile text is visible on the left side of the screen<br /><br/>
+__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > SUCCESS: Company profile text is visible on the left side of the screen<br /><br/>
+__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > ==== Test End: Verified Company Profile Menu ====<br /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_009_Verifies_Plan_Status_value()'><b>TC_009_Verifies_Plan_Status_value</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-2047521920" onClick='toggleBox("Output-2047521920", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2047521920" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2047521920">
+__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > ==== Test Start: Verifying Plan Status ====<br /><br/>
+__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > Step 1: Verify 'Plan Status' label is displayed.<br /><br/>
+__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > SUCCESS: 'Plan Status' label is visible on the page.<br /><br/>
+__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > Step 2: Verify 'Plan Status' value matches expected.<br /><br/>
+__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > SUCCESS: 'Plan Status' value matches expected: Active<br /><br/>
+__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > ==== Test End: Verifying Plan Status ====<br /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+<tr>
+<td title='com.brigita.UAT.CompanyProfilemenu.TC_008_Verifies_Subscription_Plan_value()'><b>TC_008_Verifies_Subscription_Plan_value</b><br>Test class: com.brigita.UAT.CompanyProfilemenu<br/>
+<a href="#Output-113042195" onClick='toggleBox("Output-113042195", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-113042195" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-113042195">
+__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > ==== Test Start: Verifying Subscription Plan ====<br /><br/>
+__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > Step 1: Verify 'Subscription Plan' label is displayed.<br /><br/>
+__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > SUCCESS: 'Subscription Plan' label is visible on the page.<br /><br/>
+__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > Step 2: Verify 'Subscription Plan' value matches expected.<br /><br/>
+__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > SUCCESS: 'Subscription Plan' value matches expected: Basic<br /><br/>
+__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > ==== Test End: Verifying Subscription Plan ====<br /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.brigita.UAT.CompanyProfilemenu@514646ef</td></tr>
+</table><p>
+</body>
+</html>

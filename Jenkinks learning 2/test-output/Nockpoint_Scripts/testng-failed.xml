@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="2" name="Failed suite [Nockpoint_Scripts]" guice-stage="DEVELOPMENT">
+  <parameter name="env" value="Test"/>
+  <test thread-count="2" name="Mahesh_Debug(failed)">
+    <classes>
+      <class name="com.brigita.UAT.CompanyProfilemenu">
+        <methods>
+          <include name="afterTestMethod"/>
+          <include name="logInToNockpoint"/>
+          <include name="TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI"/>
+          <include name="beforeTestMethod"/>
+          <include name="launchBrowser"/>
+          <include name="TC_010_Verifies_TUID_value_and_profile_menu_display"/>
+          <include name="CloseBrowser"/>
+          <include name="logOutFromNockpoint"/>
+        </methods>
+      </class> <!-- com.brigita.UAT.CompanyProfilemenu -->
+    </classes>
+  </test> <!-- Mahesh_Debug(failed) -->
+</suite> <!-- Failed suite [Nockpoint_Scripts] -->

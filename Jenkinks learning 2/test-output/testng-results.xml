@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[__03_42_51PM :: com.brigita.base.BaseTest#launchBrowser > ============ Before Suite ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_42_53PM :: com.brigita.base.BaseTest#initialization > Chrome browser launched<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#initialization > Launched nockpoint Test URL<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#initialization > Nockpoint registarion page is displayed<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#logInToNockpoint > ============= Before Test ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#logInToNockpoint > Start the execution<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#logInToApplication > Click on Login option in registration page<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_01PM :: com.brigita.base.BaseTest#logInToApplication > Click on Email field<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_03PM :: com.brigita.base.BaseTest#logInToApplication > Enter the user Email ID<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_03PM :: com.brigita.base.BaseTest#logInToApplication > Click on Password field<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_04PM :: com.brigita.base.BaseTest#logInToApplication > Enter the Password<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_04PM :: com.brigita.base.BaseTest#logInToApplication > Click on Login<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_05PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_05PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > ==== Test Start: Verifying Setting Icon ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 1: Verifying that the Setting Icon is available.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Setting Icon is displayed.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 2: Verifying the tooltip text on the Setting Icon.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Tooltip text is correct. Tooltip: Settings<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 3: Clicking on the Setting Icon.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Setting Icon clicked successfully.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > ==== Test End: Verified Setting Icon ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_14PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_17PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_002_Verifies_Company_Profile_menu_display_under_Settings<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > ==== Test Start: Verifying Company Profile Menu ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > Step 1: Validate that the Company Profile menu is displayed under the Settings icon with correct spelling<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > SUCCESS: Company profile menu is displayed under settings icon with correct spelling<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > Step 2: Validate that the Company Profile menu is highlighted when clicked.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > SUCCESS: Company profile menu is highlighted when clicked<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > ==== Test End: Verified Company Profile Menu ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_18PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_21PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_002_Verifies_Company_Profile_menu_display_under_Settings<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_21PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_21PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_003_Verifies_Company_Profile_text_at_left_navigation<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > Test Start: Verifying Company Profile text is visible on the left side of the screen<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > Step 1: Velidate Company Profile text is visible on the left side of the screen<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > SUCCESS: Company profile text is visible on the left side of the screen<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > ==== Test End: Verified Company Profile Menu ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_22PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_25PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_003_Verifies_Company_Profile_text_at_left_navigation<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_25PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_25PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_004_Verifies_Company_Name_and_Plan_Validity_display<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Test Start: Verify that Company Name and Plan Validity fields are displayed with correct spelling.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Step 1: Validate that Company Name fields are displayed with correct spelling.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > SUCCESS: Company Name field is displaying with correct spelling<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Step 2: Validate that Plan Validity fields are displayed with correct spelling.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > SUCCESS: Plan Validity fields are displayed with correct spelling<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > ==== Test End: Verified Company Name & Plan Validity ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_26PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_29PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_004_Verifies_Company_Name_and_Plan_Validity_display<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_29PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_29PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_005_Verifies_Company_Name_Label_Value_and_Save_Button<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > ==== Test Start: Verifying Company Name Label, Value & Save Button ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 1: Validate Company Name label is displayed with correct spelling<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name label is displayed<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 2: Validate Company Name input displays the correct registered company name<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name value is displayed correctly: BRIGITA1<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 3: Validate Company Name Save button is displayed<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name Save button is displayed<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > ==== Test End: Verified Company Name Label, Value & Save Button ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_31PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_34PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_005_Verifies_Company_Name_Label_Value_and_Save_Button<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_34PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_34PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > ==== Test Start: Verifying Company Name Edit Flow ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 1: Clear the existing Company Name value<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Existing Company Name value cleared<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 2: Enter new Company Name value<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: New Company Name entered: BRIGITA12345<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 3: Click on Save button<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Save button clicked<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_42PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 4: Verify updated Company Name value in input field<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_42PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Company Name input updated correctly: BRIGITA12345<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 5: Verify Company Name updated in header section<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Company Name updated in header section<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 6: Click on profile icon<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Profile icon clicked<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_44PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 7: Verify Company Name updated in profile menu<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_44PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > ==== Test End: Verified Company Name edit flow ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_44PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_47PM :: com.brigita.base.BaseTest#afterTestMethod > TEST CASE FAILED IS TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UITest case failed<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_47PM :: com.brigita.base.BaseTest#afterTestMethod > TEST CASE FAILED IS java.lang.AssertionError: FAILED: Company Name not updated in profile menu expected [true] but found [false]<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_47PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_47PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_007_Verifies_No_of_Users_count<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > ==== Test Start: Verifying 'No of Users' count ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > Step 1: Verify 'No of Users' label is displayed.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > SUCCESS: 'No of Users' label is visible on the page.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > Step 2: Verify 'No of Users' count matches expected.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > SUCCESS: 'No of Users' count matches expected value: 2<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > ==== Test End: Verifying 'No of Users' count ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_49PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_52PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_007_Verifies_No_of_Users_count<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_52PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_52PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_008_Verifies_Subscription_Plan_value<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > ==== Test Start: Verifying Subscription Plan ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > Step 1: Verify 'Subscription Plan' label is displayed.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > SUCCESS: 'Subscription Plan' label is visible on the page.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > Step 2: Verify 'Subscription Plan' value matches expected.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > SUCCESS: 'Subscription Plan' value matches expected: Basic<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > ==== Test End: Verifying Subscription Plan ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_53PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_56PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_008_Verifies_Subscription_Plan_value<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_56PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_56PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_009_Verifies_Plan_Status_value<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > ==== Test Start: Verifying Plan Status ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > Step 1: Verify 'Plan Status' label is displayed.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > SUCCESS: 'Plan Status' label is visible on the page.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > Step 2: Verify 'Plan Status' value matches expected.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > SUCCESS: 'Plan Status' value matches expected: Active<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > ==== Test End: Verifying Plan Status ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_43_57PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_00PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_009_Verifies_Plan_Status_value<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_00PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_00PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_010_Verifies_TUID_value_and_profile_menu_display<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > ==== Test Start: Verifying TUID ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 1: Verify 'Tuid' label is displayed.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > SUCCESS: 'Tuid' label is visible on the page.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 2: Verify 'Tuid' value matches expected value.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > SUCCESS: 'Tuid' value matches expected: EG7WMNE3W6IS<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 3: Click profile icon to verify TUID in profile.<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_03PM :: com.brigita.base.Companyprofile#verifyTuid > ERROR: Exception occurred while verifying TUID: element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //img[@id="user-icon"]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_03PM :: com.brigita.base.Companyprofile#verifyTuid > ==== Test End: Verifying TUID ====<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_03PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_06PM :: com.brigita.base.BaseTest#afterTestMethod > TEST CASE FAILED IS TC_010_Verifies_TUID_value_and_profile_menu_displayTest case failed<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_06PM :: com.brigita.base.BaseTest#afterTestMethod > TEST CASE FAILED IS java.lang.AssertionError: Test failed due to exception: element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //img[@id="user-icon"]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_09PM :: com.brigita.base.BaseTest#logOutFromApplication > End of execution<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_29PM :: com.brigita.base.BaseTest#logOutFromApplication > Click on profile<br />]]>
+    </line>
+    <line>
+      <![CDATA[__03_44_31PM :: com.brigita.base.BaseTest#CloseBrowser > Closing Browser window<br />]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b><font size = 4>Step: Browser closed</font></b>]]>
+    </line>
+    <line>
+      <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-12-14T15:42:59 IST" name="Nockpoint_Scripts" finished-at="2025-12-14T15:44:30 IST" duration-ms="91976">
+    <groups>
+      <group name="CompanyName">
+        <method signature="CompanyProfilemenu.TC_004_Verifies_Company_Name_and_Plan_Validity_display()[pri:4, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_004_Verifies_Company_Name_and_Plan_Validity_display" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_005_Verifies_Company_Name_Label_Value_and_Save_Button()[pri:5, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_005_Verifies_Company_Name_Label_Value_and_Save_Button" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI()[pri:6, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI" class="com.brigita.UAT.CompanyProfilemenu"/>
+      </group> <!-- CompanyName -->
+      <group name="CompanyProfile">
+        <method signature="CompanyProfilemenu.TC_002_Verifies_Company_Profile_menu_display_under_Settings()[pri:2, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_002_Verifies_Company_Profile_menu_display_under_Settings" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_003_Verifies_Company_Profile_text_at_left_navigation()[pri:3, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_003_Verifies_Company_Profile_text_at_left_navigation" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_010_Verifies_TUID_value_and_profile_menu_display()[pri:10, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_010_Verifies_TUID_value_and_profile_menu_display" class="com.brigita.UAT.CompanyProfilemenu"/>
+      </group> <!-- CompanyProfile -->
+      <group name="UserManagement">
+        <method signature="CompanyProfilemenu.TC_007_Verifies_No_of_Users_count()[pri:7, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_007_Verifies_No_of_Users_count" class="com.brigita.UAT.CompanyProfilemenu"/>
+      </group> <!-- UserManagement -->
+      <group name="Regression">
+        <method signature="CompanyProfilemenu.TC_004_Verifies_Company_Name_and_Plan_Validity_display()[pri:4, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_004_Verifies_Company_Name_and_Plan_Validity_display" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_005_Verifies_Company_Name_Label_Value_and_Save_Button()[pri:5, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_005_Verifies_Company_Name_Label_Value_and_Save_Button" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI()[pri:6, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_007_Verifies_No_of_Users_count()[pri:7, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_007_Verifies_No_of_Users_count" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_008_Verifies_Subscription_Plan_value()[pri:8, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_008_Verifies_Subscription_Plan_value" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_009_Verifies_Plan_Status_value()[pri:9, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_009_Verifies_Plan_Status_value" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_010_Verifies_TUID_value_and_profile_menu_display()[pri:10, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_010_Verifies_TUID_value_and_profile_menu_display" class="com.brigita.UAT.CompanyProfilemenu"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CompanyProfilemenu.TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text()[pri:1, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_002_Verifies_Company_Profile_menu_display_under_Settings()[pri:2, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_002_Verifies_Company_Profile_menu_display_under_Settings" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_003_Verifies_Company_Profile_text_at_left_navigation()[pri:3, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_003_Verifies_Company_Profile_text_at_left_navigation" class="com.brigita.UAT.CompanyProfilemenu"/>
+      </group> <!-- Smoke -->
+      <group name="Subscription">
+        <method signature="CompanyProfilemenu.TC_008_Verifies_Subscription_Plan_value()[pri:8, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_008_Verifies_Subscription_Plan_value" class="com.brigita.UAT.CompanyProfilemenu"/>
+        <method signature="CompanyProfilemenu.TC_009_Verifies_Plan_Status_value()[pri:9, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_009_Verifies_Plan_Status_value" class="com.brigita.UAT.CompanyProfilemenu"/>
+      </group> <!-- Subscription -->
+      <group name="Settings">
+        <method signature="CompanyProfilemenu.TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text()[pri:1, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" name="TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text" class="com.brigita.UAT.CompanyProfilemenu"/>
+      </group> <!-- Settings -->
+    </groups>
+    <test started-at="2025-12-14T15:42:59 IST" name="Mahesh_Debug" finished-at="2025-12-14T15:44:30 IST" duration-ms="91976">
+      <class name="com.brigita.UAT.CompanyProfilemenu">
+        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:42:51 IST" name="launchBrowser" finished-at="2025-12-14T15:42:59 IST" duration-ms="8011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10a907ec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_42_51PM :: com.brigita.base.BaseTest#launchBrowser > ============ Before Suite ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_42_53PM :: com.brigita.base.BaseTest#initialization > Chrome browser launched<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#initialization > Launched nockpoint Test URL<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#initialization > Nockpoint registarion page is displayed<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logInToNockpoint()[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:42:59 IST" name="logInToNockpoint" finished-at="2025-12-14T15:43:05 IST" duration-ms="6312" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#logInToNockpoint > ============= Before Test ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#logInToNockpoint > Start the execution<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_42_59PM :: com.brigita.base.BaseTest#logInToApplication > Click on Login option in registration page<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_01PM :: com.brigita.base.BaseTest#logInToApplication > Click on Email field<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_03PM :: com.brigita.base.BaseTest#logInToApplication > Enter the user Email ID<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_03PM :: com.brigita.base.BaseTest#logInToApplication > Click on Password field<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_04PM :: com.brigita.base.BaseTest#logInToApplication > Enter the Password<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_04PM :: com.brigita.base.BaseTest#logInToApplication > Click on Login<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInToNockpoint -->
+        <test-method signature="TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text()[pri:1, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:05 IST" name="TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text" finished-at="2025-12-14T15:43:14 IST" duration-ms="9553" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > ==== Test Start: Verifying Setting Icon ====<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 1: Verifying that the Setting Icon is available.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Setting Icon is displayed.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 2: Verifying the tooltip text on the Setting Icon.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Tooltip text is correct. Tooltip: Settings<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > Step 3: Clicking on the Setting Icon.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > SUCCESS: Setting Icon clicked successfully.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > ==== Test End: Verified Setting Icon ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:05 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_05PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_05PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:14 IST" name="afterTestMethod" finished-at="2025-12-14T15:43:18 IST" duration-ms="3240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text status=SUCCESS method=CompanyProfilemenu.TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text()[pri:1, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_14PM :: com.brigita.base.Companyprofile#verifySettingIcon > ==== Test Start: Verifying Setting Icon ====<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_14PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_17PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_001_Verifies_the_visibility_of_the_Setting_Icon_and_tooltip_text<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:18 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_002_Verifies_Company_Profile_menu_display_under_Settings() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_002_Verifies_Company_Profile_menu_display_under_Settings<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC_002_Verifies_Company_Profile_menu_display_under_Settings()[pri:2, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:18 IST" name="TC_002_Verifies_Company_Profile_menu_display_under_Settings" finished-at="2025-12-14T15:43:18 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > ==== Test Start: Verifying Company Profile Menu ====<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > Step 1: Validate that the Company Profile menu is displayed under the Settings icon with correct spelling<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > SUCCESS: Company profile menu is displayed under settings icon with correct spelling<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > Step 2: Validate that the Company Profile menu is highlighted when clicked.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > SUCCESS: Company profile menu is highlighted when clicked<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > ==== Test End: Verified Company Profile Menu ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_002_Verifies_Company_Profile_menu_display_under_Settings -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:18 IST" name="afterTestMethod" finished-at="2025-12-14T15:43:21 IST" duration-ms="3046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_002_Verifies_Company_Profile_menu_display_under_Settings status=SUCCESS method=CompanyProfilemenu.TC_002_Verifies_Company_Profile_menu_display_under_Settings()[pri:2, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_18PM :: com.brigita.base.Companyprofile#verifyCompanyProfile > ==== Test Start: Verifying Company Profile Menu ====<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_18PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_21PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_002_Verifies_Company_Profile_menu_display_under_Settings<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:21 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_003_Verifies_Company_Profile_text_at_left_navigation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_21PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_21PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_003_Verifies_Company_Profile_text_at_left_navigation<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC_003_Verifies_Company_Profile_text_at_left_navigation()[pri:3, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:21 IST" name="TC_003_Verifies_Company_Profile_text_at_left_navigation" finished-at="2025-12-14T15:43:22 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > Test Start: Verifying Company Profile text is visible on the left side of the screen<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > Step 1: Velidate Company Profile text is visible on the left side of the screen<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > SUCCESS: Company profile text is visible on the left side of the screen<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > ==== Test End: Verified Company Profile Menu ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_003_Verifies_Company_Profile_text_at_left_navigation -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:22 IST" name="afterTestMethod" finished-at="2025-12-14T15:43:25 IST" duration-ms="3067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_003_Verifies_Company_Profile_text_at_left_navigation status=SUCCESS method=CompanyProfilemenu.TC_003_Verifies_Company_Profile_text_at_left_navigation()[pri:3, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_22PM :: com.brigita.base.Companyprofile#verifyCompanyProfileTextAtLeftNavigation > Test Start: Verifying Company Profile text is visible on the left side of the screen<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_22PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_25PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_003_Verifies_Company_Profile_text_at_left_navigation<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:25 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_004_Verifies_Company_Name_and_Plan_Validity_display() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_25PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_25PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_004_Verifies_Company_Name_and_Plan_Validity_display<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC_004_Verifies_Company_Name_and_Plan_Validity_display()[pri:4, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:25 IST" name="TC_004_Verifies_Company_Name_and_Plan_Validity_display" finished-at="2025-12-14T15:43:26 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Test Start: Verify that Company Name and Plan Validity fields are displayed with correct spelling.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Step 1: Validate that Company Name fields are displayed with correct spelling.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > SUCCESS: Company Name field is displaying with correct spelling<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Step 2: Validate that Plan Validity fields are displayed with correct spelling.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > SUCCESS: Plan Validity fields are displayed with correct spelling<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > ==== Test End: Verified Company Name & Plan Validity ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_004_Verifies_Company_Name_and_Plan_Validity_display -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:26 IST" name="afterTestMethod" finished-at="2025-12-14T15:43:29 IST" duration-ms="3046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_004_Verifies_Company_Name_and_Plan_Validity_display status=SUCCESS method=CompanyProfilemenu.TC_004_Verifies_Company_Name_and_Plan_Validity_display()[pri:4, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_26PM :: com.brigita.base.Companyprofile#verifyCompanyName > Test Start: Verify that Company Name and Plan Validity fields are displayed with correct spelling.<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_26PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_29PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_004_Verifies_Company_Name_and_Plan_Validity_display<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method signature="TC_005_Verifies_Company_Name_Label_Value_and_Save_Button()[pri:5, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:29 IST" name="TC_005_Verifies_Company_Name_Label_Value_and_Save_Button" finished-at="2025-12-14T15:43:31 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > ==== Test Start: Verifying Company Name Label, Value & Save Button ====<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 1: Validate Company Name label is displayed with correct spelling<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name label is displayed<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 2: Validate Company Name input displays the correct registered company name<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name value is displayed correctly: BRIGITA1<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > Step 3: Validate Company Name Save button is displayed<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > SUCCESS: Company Name Save button is displayed<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > ==== Test End: Verified Company Name Label, Value & Save Button ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_005_Verifies_Company_Name_Label_Value_and_Save_Button -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:29 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_005_Verifies_Company_Name_Label_Value_and_Save_Button() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_29PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_29PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_005_Verifies_Company_Name_Label_Value_and_Save_Button<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:31 IST" name="afterTestMethod" finished-at="2025-12-14T15:43:34 IST" duration-ms="3045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_005_Verifies_Company_Name_Label_Value_and_Save_Button status=SUCCESS method=CompanyProfilemenu.TC_005_Verifies_Company_Name_Label_Value_and_Save_Button()[pri:5, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_31PM :: com.brigita.base.Companyprofile#verifyCompanyNameLabel_Values_SaveButton > ==== Test Start: Verifying Company Name Label, Value & Save Button ====<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_31PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_34PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_005_Verifies_Company_Name_Label_Value_and_Save_Button<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:34 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_34PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_34PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI()[pri:6, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:34 IST" name="TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI" finished-at="2025-12-14T15:43:44 IST" duration-ms="10251" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILED: Company Name not updated in profile menu expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILED: Company Name not updated in profile menu expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.brigita.base.Companyprofile.verifyCompanyNameValueviaEditing(Companyprofile.java:257)
+at com.brigita.UAT.CompanyProfilemenu.TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI(CompanyProfilemenu.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > ==== Test Start: Verifying Company Name Edit Flow ====<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 1: Clear the existing Company Name value<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Existing Company Name value cleared<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 2: Enter new Company Name value<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: New Company Name entered: BRIGITA12345<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 3: Click on Save button<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Save button clicked<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_42PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 4: Verify updated Company Name value in input field<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_42PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Company Name input updated correctly: BRIGITA12345<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 5: Verify Company Name updated in header section<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Company Name updated in header section<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 6: Click on profile icon<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_43PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > SUCCESS: Profile icon clicked<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_44PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > Step 7: Verify Company Name updated in profile menu<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_44PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > ==== Test End: Verified Company Name edit flow ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:44 IST" name="afterTestMethod" finished-at="2025-12-14T15:43:47 IST" duration-ms="3555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI status=FAILURE method=CompanyProfilemenu.TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UI()[pri:6, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_35PM :: com.brigita.base.Companyprofile#verifyCompanyNameValueviaEditing > ==== Test Start: Verifying Company Name Edit Flow ====<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_44PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_47PM :: com.brigita.base.BaseTest#afterTestMethod > TEST CASE FAILED IS TC_006_Verifies_Company_Name_edit_flow_and_reflection_across_UITest case failed<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_47PM :: com.brigita.base.BaseTest#afterTestMethod > TEST CASE FAILED IS java.lang.AssertionError: FAILED: Company Name not updated in profile menu expected [true] but found [false]<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:47 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_007_Verifies_No_of_Users_count() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_47PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_47PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_007_Verifies_No_of_Users_count<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC_007_Verifies_No_of_Users_count()[pri:7, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:47 IST" name="TC_007_Verifies_No_of_Users_count" finished-at="2025-12-14T15:43:49 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > ==== Test Start: Verifying 'No of Users' count ====<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > Step 1: Verify 'No of Users' label is displayed.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > SUCCESS: 'No of Users' label is visible on the page.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > Step 2: Verify 'No of Users' count matches expected.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > SUCCESS: 'No of Users' count matches expected value: 2<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > ==== Test End: Verifying 'No of Users' count ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_007_Verifies_No_of_Users_count -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:49 IST" name="afterTestMethod" finished-at="2025-12-14T15:43:52 IST" duration-ms="3090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_007_Verifies_No_of_Users_count status=SUCCESS method=CompanyProfilemenu.TC_007_Verifies_No_of_Users_count()[pri:7, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_49PM :: com.brigita.base.Companyprofile#verifyNoOfUsersCount > ==== Test Start: Verifying 'No of Users' count ====<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_49PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_52PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_007_Verifies_No_of_Users_count<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:52 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:52 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_008_Verifies_Subscription_Plan_value() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_52PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_52PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_008_Verifies_Subscription_Plan_value<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC_008_Verifies_Subscription_Plan_value()[pri:8, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:52 IST" name="TC_008_Verifies_Subscription_Plan_value" finished-at="2025-12-14T15:43:53 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > ==== Test Start: Verifying Subscription Plan ====<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > Step 1: Verify 'Subscription Plan' label is displayed.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > SUCCESS: 'Subscription Plan' label is visible on the page.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > Step 2: Verify 'Subscription Plan' value matches expected.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > SUCCESS: 'Subscription Plan' value matches expected: Basic<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > ==== Test End: Verifying Subscription Plan ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_008_Verifies_Subscription_Plan_value -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:53 IST" name="afterTestMethod" finished-at="2025-12-14T15:43:56 IST" duration-ms="3081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_008_Verifies_Subscription_Plan_value status=SUCCESS method=CompanyProfilemenu.TC_008_Verifies_Subscription_Plan_value()[pri:8, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_53PM :: com.brigita.base.Companyprofile#verifySubscriptionPlan > ==== Test Start: Verifying Subscription Plan ====<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_53PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_56PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_008_Verifies_Subscription_Plan_value<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:56 IST" name="beforeTestMethod" finished-at="2025-12-14T15:43:56 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_009_Verifies_Plan_Status_value() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_56PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_56PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_009_Verifies_Plan_Status_value<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC_009_Verifies_Plan_Status_value()[pri:9, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:56 IST" name="TC_009_Verifies_Plan_Status_value" finished-at="2025-12-14T15:43:57 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > ==== Test Start: Verifying Plan Status ====<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > Step 1: Verify 'Plan Status' label is displayed.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > SUCCESS: 'Plan Status' label is visible on the page.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > Step 2: Verify 'Plan Status' value matches expected.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > SUCCESS: 'Plan Status' value matches expected: Active<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > ==== Test End: Verifying Plan Status ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_009_Verifies_Plan_Status_value -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:43:57 IST" name="afterTestMethod" finished-at="2025-12-14T15:44:00 IST" duration-ms="3098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_009_Verifies_Plan_Status_value status=SUCCESS method=CompanyProfilemenu.TC_009_Verifies_Plan_Status_value()[pri:9, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_43_57PM :: com.brigita.base.Companyprofile#verifyPlanStatus > ==== Test Start: Verifying Plan Status ====<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_43_57PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_00PM :: com.brigita.base.BaseTest#afterTestMethod > Test Case PASSED IS TC_009_Verifies_Plan_Status_value<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:44:00 IST" name="beforeTestMethod" finished-at="2025-12-14T15:44:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.brigita.UAT.CompanyProfilemenu.TC_010_Verifies_TUID_value_and_profile_menu_display() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_44_00PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Before Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_00PM :: com.brigita.base.BaseTest#beforeTestMethod > ============= Currently Executing Scenario: TC_010_Verifies_TUID_value_and_profile_menu_display<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC_010_Verifies_TUID_value_and_profile_menu_display()[pri:10, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:44:00 IST" name="TC_010_Verifies_TUID_value_and_profile_menu_display" finished-at="2025-12-14T15:44:03 IST" duration-ms="2922" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to exception: element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //img[@id="user-icon"]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to exception: element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //img[@id="user-icon"]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29
+at org.testng.Assert.fail(Assert.java:99)
+at com.brigita.base.Companyprofile.verifyTuid(Companyprofile.java:401)
+at com.brigita.UAT.CompanyProfilemenu.TC_010_Verifies_TUID_value_and_profile_menu_display(CompanyProfilemenu.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > ==== Test Start: Verifying TUID ====<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 1: Verify 'Tuid' label is displayed.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > SUCCESS: 'Tuid' label is visible on the page.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 2: Verify 'Tuid' value matches expected value.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > SUCCESS: 'Tuid' value matches expected: EG7WMNE3W6IS<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > Step 3: Click profile icon to verify TUID in profile.<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_03PM :: com.brigita.base.Companyprofile#verifyTuid > ERROR: Exception occurred while verifying TUID: element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //img[@id="user-icon"]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_03PM :: com.brigita.base.Companyprofile#verifyTuid > ==== Test End: Verifying TUID ====<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_010_Verifies_TUID_value_and_profile_menu_display -->
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:44:03 IST" name="afterTestMethod" finished-at="2025-12-14T15:44:07 IST" duration-ms="3434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_010_Verifies_TUID_value_and_profile_menu_display status=FAILURE method=CompanyProfilemenu.TC_010_Verifies_TUID_value_and_profile_menu_display()[pri:10, instance:com.brigita.UAT.CompanyProfilemenu@514646ef] output=__03_44_02PM :: com.brigita.base.Companyprofile#verifyTuid > ==== Test Start: Verifying TUID ====<br />]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[__03_44_03PM :: com.brigita.base.BaseTest#afterTestMethod > ============= After Test Method ===============<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_06PM :: com.brigita.base.BaseTest#afterTestMethod > TEST CASE FAILED IS TC_010_Verifies_TUID_value_and_profile_menu_displayTest case failed<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_06PM :: com.brigita.base.BaseTest#afterTestMethod > TEST CASE FAILED IS java.lang.AssertionError: Test failed due to exception: element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //img[@id="user-icon"]]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="logOutFromNockpoint()[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:44:07 IST" name="logOutFromNockpoint" finished-at="2025-12-14T15:44:30 IST" duration-ms="23782" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //*[@id='user-icon']]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img _ngcontent-iwy-c105="" id="user-icon" class="_proImg" src="https://dashboard-np.s3.us-west-2.amazonaws.com/Nockpoint_Tenant_Test/accounts-module/user/profile_image/70an6jNLIhnaiQu8cj8VmBRuPlUGv5XLg4vGZyjA.jpg" style="border: 2px solid white;"> is not clickable at point (1881, 32). Other element would receive the click: <div _ngcontent-iwy-c105="" id="overlayPopup" style="display: block;"></div>
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [36baf8076e5cf73e71f320d3bedc9f29, clickElement {id=f.8F45B59C1BE16F681D0AA2C39978873A.d.EAFD715538F88678378464728E2B7D46.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58398/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36baf8076e5cf73e71f320d3bedc9f29)] -> xpath: //*[@id='user-icon']]
+Session ID: 36baf8076e5cf73e71f320d3bedc9f29
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.brigita.base.BaseTest.clickOperation(BaseTest.java:359)
+at com.brigita.base.BaseTest.logOutFromApplication(BaseTest.java:222)
+at com.brigita.base.BaseTest.logOutFromNockpoint(BaseTest.java:322)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[__03_44_09PM :: com.brigita.base.BaseTest#logOutFromApplication > End of execution<br />]]>
+            </line>
+            <line>
+              <![CDATA[__03_44_29PM :: com.brigita.base.BaseTest#logOutFromApplication > Click on profile<br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromNockpoint -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.brigita.UAT.CompanyProfilemenu@514646ef]" started-at="2025-12-14T15:44:31 IST" name="CloseBrowser" finished-at="2025-12-14T15:44:31 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[__03_44_31PM :: com.brigita.base.BaseTest#CloseBrowser > Closing Browser window<br />]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b><font size = 4>Step: Browser closed</font></b>]]>
+            </line>
+            <line>
+              <![CDATA[<br/><b><font size = 4>-------------------------------------------------------------------------------</font></b><br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.brigita.UAT.CompanyProfilemenu -->
+    </test> <!-- Mahesh_Debug -->
+  </suite> <!-- Nockpoint_Scripts -->
+</testng-results>

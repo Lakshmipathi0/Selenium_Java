@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nockpoint_Scripts" parallel="none" thread-count="2" configfailurepolicy="continue">
+<!--  <listeners>
+		<listener class-name="com.brigita.utils.SuiteListener" />
+	</listeners> -->
+    <parameter name="env" value="Test" />
+	<test name="Mahesh_Debug">
+		  <classes>
+	   <class name="com.brigita.UAT.CompanyProfilemenu" />
+		</classes>
+		
+		<!--   <packages>
+			<package name="com.brigita"/>
+	</packages>	-->
+</test>
+</suite>	

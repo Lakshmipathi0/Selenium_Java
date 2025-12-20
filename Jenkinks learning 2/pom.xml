@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.com.brigita</groupId>
+  <artifactId>Nockpoint</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.10.2</version>
+	    <scope>test</scope>
+	</dependency>
+<dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.21.0</version>
+    </dependency>
+    <!-- WebDriverManager (Auto driver download/update) -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.9.2</version>
+    </dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml</artifactId>
+	    <version>5.3.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-text</artifactId>
+	    <version>1.12.0</version>
+	</dependency>
+	
+   <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.9.2</version>
+   </dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-lang3</artifactId>
+	    <version>3.17.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+	<dependency>
+	    <groupId>com.relevantcodes</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>2.41.2</version>
+	</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>3.1.5</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-core</artifactId>
+	    <version>2.19.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-web -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-web</artifactId>
+	    <version>2.6.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.17.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcpkix-jdk18on -->
+	<dependency>
+	    <groupId>org.bouncycastle</groupId>
+	    <artifactId>bcpkix-jdk18on</artifactId>
+	    <version>1.78.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5 -->
+	<dependency>
+	    <groupId>org.apache.httpcomponents.client5</groupId>
+	    <artifactId>httpclient5</artifactId>
+	    <version>5.3.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.bytedeco/tesseract-platform -->
+	<dependency>
+	    <groupId>org.bytedeco</groupId>
+	    <artifactId>tesseract-platform</artifactId>
+	    <version>5.3.4-1.5.10</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+	<dependency>
+	    <groupId>net.sourceforge.tess4j</groupId>
+	    <artifactId>tess4j</artifactId>
+	    <version>5.13.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-api</artifactId>
+	    <version>2.19.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+	<dependency>
+	    <groupId>io.github.bonigarcia</groupId>
+	    <artifactId>webdrivermanager</artifactId>
+	    <version>5.9.2</version>
+	</dependency>
+
+</dependencies>
+	
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.4.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.12.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.6.1</version>
+        </plugin>
+        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.3.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+        </plugin>
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M7</version>
+            <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.4.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>3.1.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.1.2</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+</project>
