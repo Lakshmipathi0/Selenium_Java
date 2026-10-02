@@ -89,7 +89,6 @@ public class DelayConfig extends BaseTest {
                      Assert.fail("An error occurred while validating checkbox functionality",e);
                } finally {
                      TestReporter.log("Test End: Checkbox Functionality Validated Successfully");
-                     TestReporter.log("Learning Github and Jenkins Integration");
                }
 
               }
