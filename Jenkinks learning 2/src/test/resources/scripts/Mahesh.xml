@@ -7,7 +7,7 @@
     <parameter name="env" value="Test" />
 	<test name="Mahesh_Debug">
 		  <classes>
-	   <class name="com.brigita.UAT.CompanyProfilemenu" />
+	   <class name="com.brigita.UAT.Delayconfig" />
 		</classes>
 		
 		<!--   <packages>

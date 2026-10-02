@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Mahesh.xml",
+            "request": "launch",
+            "mainClass": "org.testng.TestNG",
+            "classPaths": ["$Test"],
+            "args": "src/test/resources/scripts/Mahesh.xml",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
