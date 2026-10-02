@@ -1,92 +1,100 @@
 package com.brigita.base;
 
+import java.time.Duration;
 import java.util.List;
 
-import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import com.brigita.selenium.common.TestReporter;
+
+
 
 public class DelayConfig extends BaseTest {
 
 
-    // The real <input> checkboxes are hidden by the theme CSS (opacity 0), so we click the
-    // visible checkmark span and read the checked state from the hidden input.
-    By selectAll = By.xpath("//input[@id='checkall']");
-    By selectAllCheckmark = By.xpath("//input[@id='checkall']/following-sibling::span[@class='checkmark']");
-    By allzonescheckbox = By.xpath("//table[@id='alternative_pagination_table_v1']//tbody//input[@class='checkrow']");
-    By bulkUpdateButton = By.xpath("//a[@id='BulkUpdate']");
+        By Tabledata = By.xpath("//table[@id='alternative_pagination_table_v1']/tbody/tr");
+        By checkbox =  By.xpath("(//span[@class=\"checkmark\"])[1]");
+        By checkbox1 = By.xpath("//span[@class='checkmark']");
 
-    public  void LunchModule() {
-        try {
-            TestReporter.log("=== Launch the Overflow Delay Manage module ===");
-            driver.get("https://riderapp-admin.eateasy.ae/master/v3/overflow_delay_manageV1");
-            TestReporter.log("=== Overflow Delay Manage module launched successfully ===");
-        } catch (Exception e) {
-            Assert.fail("Failed to launch Overflow Delay Manage module: " + e.getMessage());
-        } finally {
-            TestReporter.log("Test End : Launch Module");
-        }
-    }
 
-public void verifySelectAllSelectsAllZones() {
+        public  void lunchmodule(String expectedURL){
 
-    TestReporter.log("Test Start : Verify Select All Selects All Zones Checkboxes");
 
-    try {
+                TestReporter.log("Test Start: Verify Delay Config Module Lunch");
+                try {
+                        TestReporter.log("Lunching The Delay Config Module");
+                        driver.get(expectedURL);
+                        String actualURl = driver.getCurrentUrl();
+                        Assert.assertEquals(actualURl, expectedURL, "Delay Config Module Lunch Failed");
 
-        WebElement selectAllCheckbox = driver.findElement(selectAll);
+                        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                        wait.until(ExpectedConditions.visibilityOfElementLocated(Tabledata));
+                        List<WebElement> tableRows = createWebElements(Tabledata);
 
-        if (!selectAllCheckbox.isSelected()) {
+                        TestReporter.log("Validating Table Data");
+                        Assert.assertFalse(tableRows.isEmpty(), "Table Data is Empty");
 
-            TestReporter.log("Click On Select All Checkbox");
-            BaseTest.clickOperation(BaseTest.createWebElement(selectAllCheckmark));
-            TestReporter.log("Select All Checkbox Clicked");
+                        TestReporter.log("Table Data Found. Total Rows: " + tableRows.size());
 
-        } else {
-
-            TestReporter.log("Select All was Already Selected");
-        }
-
-        Assert.assertTrue(
-                selectAllCheckbox.isSelected(),
-                "Select All Checkbox is not selected"
+                } catch (Exception e) {
+                        TestReporter.log("Error while launching Delay Config Module: "+ e.getMessage()
         );
 
-        TestReporter.log("Select All Checkbox is Selected");
-
-        List<WebElement> allZones = BaseTest.createWebElements(allzonescheckbox);
-
-        Assert.assertTrue(allZones.size() > 0, "No zone checkboxes found in the list");
-        TestReporter.log("Total Zone Checkboxes Found : " + allZones.size());
-
-        for (int i = 0; i < allZones.size(); i++) {
-
-            WebElement zoneCheckbox = allZones.get(i);
-
-            Assert.assertTrue(
-                    zoneCheckbox.isSelected(),
-                    "Zone Checkbox " + (i + 1) + " is not selected" 
-            );
-
-            TestReporter.log("Zone Checkbox " + (i + 1) + " is Selected");
+        Assert.fail("An error occurred while launching Delay Config Module",e);
+                } finally {
+                        TestReporter.log("Test End: Delay Config Module Lunched Successfully");
+                }
         }
 
-        TestReporter.log("All Zone Checkboxes are Selected Successfully");
 
-        Assert.assertTrue(
-                createWebElement(bulkUpdateButton).isDisplayed(),
-                "Bulk Update button is not displayed after Select All"
-        );
 
-        TestReporter.log("Bulk Update Button is Displayed");
+              public  void validatecheckboxfunc(){
 
-    } catch (Exception e) {
+               TestReporter.log("Test Start: Validate Checkbox Functionality");
+               
+               try {
 
-        Assert.fail("Failed while verifying Select All Zones: " + e.getMessage());
-    }
-}
+                     WebElement checkboxElement = createWebElement(checkbox);
+
+                     TestReporter.log("Verify checkbox is displayed");
+                     Assert.assertTrue(checkboxElement.isDisplayed(), "Checkbox is not displayed");
+                     TestReporter.log("Checkbox is displayed");
+
+                    // 2. Verify initial state
+                TestReporter.log("Verify checkbox is initially unselected");
+                Assert.assertFalse(checkboxElement.isSelected(),"Checkbox is already selected");
+
+                     TestReporter.log("Clicking on the checkbox");
+                     clickOperation(checkboxElement);
+                     TestReporter.log("Checkbox clicked successfully");
+
+                     TestReporter.log("Verifying checkbox is selected");
+                     Assert.assertTrue(checkboxElement.isSelected(), "checkbox is not selected");
+                     TestReporter.log("Checkbox is selected successfully");
+
+                     TestReporter.log("Verify Select all Selected All the other checkboxes");
+                     List<WebElement> checkboxList = createWebElements(checkbox1);
+                     for (WebElement checkbox : checkboxList) {
+                         Assert.assertTrue(checkbox.isSelected(), "Out of the Checkbox is not selected");
+                     }
+                     TestReporter.log("All checkboxes are selected successfully");
+
+
+               } catch (Exception e) {
+                     TestReporter.log("Error while validating checkbox functionality: "+ e.getMessage());
+                     Assert.fail("An error occurred while validating checkbox functionality",e);
+               } finally {
+                     TestReporter.log("Test End: Checkbox Functionality Validated Successfully");
+                     TestReporter.log("Learning Github and Jenkins Integration");
+               }
+
+              }
+
+
 
 
 }
