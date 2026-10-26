@@ -1,0 +1,39 @@
+name: Selenium Tests
+
+on:
+  push:
+    branches: [ main, testing ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:          # adds a "Run workflow" button on GitHub
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: "Jenkinks learning 2"   # the project is in this subfolder
+
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+
+      - name: Run tests
+        env:
+          UAT_USERNAME: ${{ secrets.UAT_USERNAME }}
+          UAT_PASSWORD: ${{ secrets.UAT_PASSWORD }}
+        run: mvn -B clean test
+
+      - name: Upload test reports
+        if: always()                 # upload even when tests fail
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: "Jenkinks learning 2/test-output/"

@@ -18,6 +18,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -155,8 +156,17 @@ public class BaseTest {
 
 		log = LogManager.getLogger(this.getClass().getMethods());
         WebDriverManager.chromedriver().setup(); // ✅ Auto-matches Chrome version
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		ChromeOptions options = new ChromeOptions();
+		// GitHub Actions sets CI=true and has no screen, so run Chrome headless there
+		boolean runningOnCI = "true".equals(System.getenv("CI"));
+		if (runningOnCI) {
+			options.addArguments("--headless=new", "--no-sandbox",
+					"--disable-dev-shm-usage", "--window-size=1920,1080");
+		}
+		driver = new ChromeDriver(options);
+		if (!runningOnCI) {
+			driver.manage().window().maximize();
+		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 		//	System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");      
 		//	driver = new ChromeDriver();
@@ -212,17 +222,26 @@ public class BaseTest {
 		clickOperation(createWebElement(By.xpath("//input[@id='email']")));
 
         TestReporter.log("Enter the Email");
-        createWebElement(By.xpath("//input[@id='email']")).sendKeys("admin@admin.com");
+        createWebElement(By.xpath("//input[@id='email']")).sendKeys(getRequiredEnv("UAT_USERNAME"));
 
 		TestReporter.log("Click On Password field");
 		clickOperation(createWebElement(By.xpath("//input[@id='password']")));
 
         TestReporter.log("Enter the Password");
-        createWebElement(By.xpath("//input[@id='password']")).sendKeys("Eateasy@123");
+        createWebElement(By.xpath("//input[@id='password']")).sendKeys(getRequiredEnv("UAT_PASSWORD"));
 
         TestReporter.log("Click on sign in Button");
 		clickOperation(createWebElement(By.xpath("//input[@value='Sign In']")));
 
+	}
+
+	// Login details come from environment variables (GitHub Secrets on CI, Windows env vars locally)
+	private static String getRequiredEnv(String name) {
+		String value = System.getenv(name);
+		if (value == null || value.trim().isEmpty()) {
+			throw new IllegalStateException("Environment variable " + name + " is not set");
+		}
+		return value;
 	}
 
 	public static void waitseconds(int seconds) {
